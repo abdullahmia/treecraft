@@ -9,7 +9,7 @@ Generate beautiful, readable visual representations of your project's folder str
 - **Text View generation**: Render the project tree in a new untitled document.
 - **Export to file**: Save the generated tree to `folder-tree.txt` at your workspace root.
 - **Emoji icons**: 📁 for folders and 📄 for files for quick scanning.
-- **Respects ignores**: Skips common directories and patterns (e.g., `.git`, `node_modules`, `.vscode`, `.DS_Store`, and patterns from your `.gitignore`).
+- **Respects ignores**: Skips common directories and patterns (e.g., `.git`, `node_modules`, `.vscode`, `.DS_Store`, and patterns fr˙om your `.gitignore`).
 
 ## Requirements
 
