@@ -3,18 +3,38 @@
   "displayName": "TreeCraft - Project Structure Visualizer",
   "description": "Generate beautiful visual representations of your project's folder structure with file-type icons",
   "publisher": "AbdullahMia",
-  "version": "0.0.1",
+  "icon": "images/logo.png",
+  "version": "0.0.3",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.74.0"
   },
-  "categories": [
-    "Other"
-  ],
   "activationEvents": [],
   "repository": {
     "type": "git",
     "url": "https://github.com/abdullahmia/treecraft"
   },
+  "bugs": {
+    "url": "https://github.com/abdullahmia/treecraft/issues"
+  },
+  "keywords": [
+    "file-tree",
+    "treecraft",
+    "treecraaft",
+    "tree",
+    "folder",
+    "structure",
+    "visualizer",
+    "project",
+    "directory",
+    "file-icons",
+    "export",
+    "gitignore"
+  ],
+  "categories": [
+    "Visualization",
+    "Other"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
