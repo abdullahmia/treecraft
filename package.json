@@ -4,7 +4,7 @@
   "description": "Generate beautiful visual representations of your project's folder structure with file-type icons",
   "publisher": "AbdullahMia",
   "icon": "images/logo.png",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "engines": {
     "vscode": "^1.74.0"
@@ -21,6 +21,11 @@
     "file-tree",
     "treecraft",
     "treecraaft",
+    "Tree Craft",
+    "TreeCraft",
+    "tree craft",
+    "folder structure",
+    "folder organize",
     "tree",
     "folder",
     "structure",
