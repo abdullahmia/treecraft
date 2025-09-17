@@ -40,29 +40,44 @@
     "commands": [
       {
         "command": "folderTreeGenerator.generateTree",
-        "title": "TreeCraft: Generate Tree (Text View)",
-        "category": "TreeCraft"
+        "title": "Generate Tree (Text)",
+        "category": "Folder Tree"
+      },
+      {
+        "command": "folderTreeGenerator.generateInteractiveTree",
+        "title": "Generate Interactive Tree",
+        "category": "Folder Tree"
       },
       {
         "command": "folderTreeGenerator.generateTreeToFile",
-        "title": "TreeCraft: Generate Tree File",
-        "category": "TreeCraft"
+        "title": "Generate Tree to File",
+        "category": "Folder Tree"
       }
     ],
     "menus": {
       "explorer/context": [
         {
           "command": "folderTreeGenerator.generateTree",
-          "group": "navigation"
+          "when": "explorerResourceIsFolder",
+          "group": "2_workspace"
+        },
+        {
+          "command": "folderTreeGenerator.generateInteractiveTree",
+          "when": "explorerResourceIsFolder",
+          "group": "2_workspace"
         },
         {
           "command": "folderTreeGenerator.generateTreeToFile",
-          "group": "navigation"
+          "when": "explorerResourceIsFolder",
+          "group": "2_workspace"
         }
       ],
       "commandPalette": [
         {
           "command": "folderTreeGenerator.generateTree"
+        },
+        {
+          "command": "folderTreeGenerator.generateInteractiveTree"
         },
         {
           "command": "folderTreeGenerator.generateTreeToFile"
